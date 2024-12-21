@@ -4,9 +4,10 @@ import React from 'react';
 
 export interface InputFieldProps {
   label?: string;
-  // name: string;
-  // placeholder?: string;
-  // type?: string;
+  placeholder?: string;
+  type?: string;
+  id?: string;
+  name: string;
 }
 
 export default function InputField({ label, id, ...rest }: InputFieldProps) {
